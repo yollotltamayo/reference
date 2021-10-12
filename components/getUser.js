@@ -1,4 +1,3 @@
-import axios from 'axios'
 
 const getUser =  (setUser,setErr,r=null,loading=null) => {
     const URI = process.env.URI || "";
