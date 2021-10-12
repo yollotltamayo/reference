@@ -1,0 +1,74 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@fontsource/roboto": "^4.5.1",
+    "@iktakahiro/markdown-it-katex": "^4.0.1",
+    "@monaco-editor/react": "^4.3.1",
+    "@mui/material": "^5.0.2",
+    "@next/bundle-analyzer": "^11.1.0",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/user-event": "^12.6.0",
+    "@types/jest": "^26.0.19",
+    "@types/mongoose": "^5.10.3",
+    "@types/node": "^12.19.9",
+    "babel-plugin-import": "^1.13.3",
+    "cross-env": "^7.0.3",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "github-markdown-css": "^4.0.0",
+    "highlight.js": "^10.7.2",
+    "html-react-parser": "^1.2.6",
+    "katex": "^0.12.0",
+    "less": "^4.1.1",
+    "markdown-it": "^12.0.6",
+    "markdown-it-multimd-table": "^4.1.0",
+    "markdown-it-named-code-blocks": "^0.1.0",
+    "markdown-it-texmath": "^0.8.0",
+    "markdown-wasm": "^1.1.2",
+    "marked": "^2.0.3",
+    "monaco-editor": "^0.28.0",
+    "mongoose": "^5.13.10",
+    "mongoose-paginate-v2": "^1.4.2",
+    "next": "^10.2.3",
+    "next-auth": "^4.0.0-beta.4",
+    "react": "^17.0.2",
+    "styled-components": "^5.3.0",
+    "swr": "^0.5.5",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "dev": "BROWSER='firefox' next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "analyze": "cross-env ANALYZE=true next build",
+    "analyze:server": "cross-env BUNDLE_ANALYZE=server next build",
+    "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "typescript": "^4.4.3"
+  },
+  "proxy": "http://localhost:8000"
+}
