@@ -23,7 +23,6 @@
     "highlight.js": "^10.7.2",
     "html-react-parser": "^1.2.6",
     "katex": "^0.12.0",
-    "less": "^4.1.1",
     "markdown-it": "^12.0.6",
     "markdown-it-multimd-table": "^4.1.0",
     "markdown-it-named-code-blocks": "^0.1.0",
@@ -69,7 +68,6 @@
     ]
   },
   "devDependencies": {
-    "axios": "^0.21.1",
     "typescript": "^4.4.3"
   },
   "proxy": "http://localhost:8000"
